@@ -151,7 +151,8 @@ h2 em, h3 em { font-style: normal; background: var(--grad); -webkit-background-c
 #intro-smoke { position: absolute; inset: 0; width: 100%; height: 100%; }
 .intro-center { position: relative; text-align: center; padding: 0 6vw; }
 .intro-monogram {
-  font-size: clamp(6rem, 17vw, 13rem); font-weight: 800; letter-spacing: -.04em; line-height: 1;
+  font-size: clamp(2.4rem, 10vw, 5.5rem); font-weight: 800; letter-spacing: .06em; line-height: 1;
+  text-indent: .06em; /* optically recenter tracked wordmark */
   background: linear-gradient(180deg, #f4f2fa 30%, rgba(198, 165, 250, .55));
   -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 0 44px rgba(198, 165, 250, .35));
