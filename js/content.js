@@ -74,8 +74,8 @@ window.CONTENT = {
       scope: "GoHighLevel · CRM Architecture · Pipelines",
       description: "End-to-end GoHighLevel implementations — CRM architecture, pipelines, calendars, forms and funnels, delivered as organized, scalable workspaces. Lead management, appointment booking, contact segmentation and internal notifications, designed around how the business actually operates.",
       tags: ["GoHighLevel", "Pipelines", "Calendars"],
-      image: "assets/img/project-nova.webp",
-      imageAlt: "Dark futuristic CRM interface in violet light"
+      image: "assets/img/project-crm.webp",
+      imageAlt: "Glowing CRM pipeline columns in violet light"
     },
     {
       id: "automation", index: "02", concept: false, duration: "01:48",
@@ -84,8 +84,8 @@ window.CONTENT = {
       scope: "Workflow Automation · Email & SMS · Nurture",
       description: "Automated customer journeys — lead management, appointment flows, nurture sequences, reactivation campaigns and missed-call follow-up. Email/SMS logic, triggers, conditions, tags and custom fields wired so no lead ever goes cold from a missed manual step.",
       tags: ["Workflows", "Email & SMS", "Make"],
-      image: "assets/img/project-flow.webp",
-      imageAlt: "Luminous automation streams flowing through dark nodes"
+      image: "assets/img/project-automation.webp",
+      imageAlt: "Luminous workflow nodes with email and message motifs"
     },
     {
       id: "funnels", index: "03", concept: false, duration: "01:56",
@@ -94,8 +94,8 @@ window.CONTENT = {
       scope: "Funnels · Landing Pages · Lead Capture",
       description: "Responsive, conversion-focused funnels, landing pages, forms and calendars — designed for clarity and wired straight into CRM workflows and pipelines. Front-end pages connected to follow-up systems so every inquiry moves smoothly into the pipeline.",
       tags: ["Funnels", "Landing Pages", "GHL"],
-      image: "assets/img/project-pulse.webp",
-      imageAlt: "Glowing conversion paths over a dark grid"
+      image: "assets/img/project-funnels.webp",
+      imageAlt: "Descending funnel layers channeling light to a conversion point"
     },
     {
       id: "ai", index: "04", concept: false, duration: "02:21",
@@ -104,8 +104,8 @@ window.CONTENT = {
       scope: "AI Chatbots · Voice AI · Integrations",
       description: "AI chatbots and voice AI agents plugged into the CRM — instant lead response, qualification and booking around the clock. Backed by API and webhook integrations, A2P/phone setup and cross-platform data flows via Make, Zapier and n8n.",
       tags: ["AI Chatbots", "Voice AI", "APIs"],
-      image: "assets/img/project-nexus.webp",
-      imageAlt: "Luminous concentric interface layers in dark space"
+      image: "assets/img/project-ai.webp",
+      imageAlt: "Luminous AI orb with radiating sound-wave rings"
     }
   ],
 
@@ -168,8 +168,8 @@ window.CONTENT = {
       meta: "GHL IMPLEMENTATION · FIELD NOTES",
       tags: ["GoHighLevel", "Pipelines", "Calendars"],
       contribution: "End-to-end GoHighLevel implementations — CRM architecture, pipelines, workflow automation, calendars, forms and funnels — delivered for agencies and service businesses, with client teams coordinated through to handoff.",
-      image: "assets/img/project-nova.webp",
-      imageAlt: "Dark futuristic CRM interface in violet light"
+      image: "assets/img/project-crm.webp",
+      imageAlt: "Glowing CRM pipeline columns in violet light"
     },
     {
       n: "02", code: "W02", concept: false,
@@ -178,8 +178,8 @@ window.CONTENT = {
       meta: "CLIENT ONBOARDING · FIELD NOTES",
       tags: ["Onboarding", "Workflows", "Training"],
       contribution: "Businesses onboarded into GoHighLevel — accounts, pipelines, workflows, funnels, forms and calendars configured; users guided through automation logic, lead handling and platform best practices until they run it confidently.",
-      image: "assets/img/project-flow.webp",
-      imageAlt: "Luminous automation streams flowing through dark nodes"
+      image: "assets/img/project-automation.webp",
+      imageAlt: "Luminous workflow nodes with email and message motifs"
     },
     {
       n: "03", code: "W03", concept: false,
@@ -188,8 +188,8 @@ window.CONTENT = {
       meta: "WORKFLOW AUTOMATION · FIELD NOTES",
       tags: ["Automation", "Make", "Zapier"],
       contribution: "Cross-platform automations — GoHighLevel integrated with external tools via APIs, webhooks, Zapier, Make and n8n. Failed automations diagnosed, data flows validated, manual steps eliminated.",
-      image: "assets/img/project-nexus.webp",
-      imageAlt: "Luminous concentric interface layers in dark space"
+      image: "assets/img/project-ai.webp",
+      imageAlt: "Luminous AI orb with radiating sound-wave rings"
     }
   ],
 
