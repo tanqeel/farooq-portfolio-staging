@@ -229,32 +229,11 @@ window.CONTENT = {
   experiences: {
     kicker: "06 / Digital",
     heading: "The next build <em>is interactive.</em>",
-    lede: "Concept demos rendered live in your browser — hover, move, click. No two visits behave exactly the same.",
+    lede: "A concept demo rendered live in your browser — click to replay.",
     cards: [
       { n: "01", code: "TERMINAL", title: "Live terminal", kind: "terminal",
         text: "A CRM deployment, typed live.",
         hint: "Click to replay" },
-      { n: "02", code: "PULSE", title: "Data pulse", kind: "wave",
-        text: "A realtime signal monitor — waveforms drawn live.",
-        hint: "Live render" },
-      { n: "03", code: "FIELD", title: "Interaction field", kind: "field",
-        text: "A pointer-reactive particle field.",
-        hint: "Move your pointer" }
-    ]
-  },
-
-  /* ---------------- 07 / Collection — LAB rail (unchanged) ---------------- */
-  experiments: {
-    kicker: "07 / The collection",
-    heading: "Explore <em>the collection.</em>",
-    lede: "Generative studies rendered live — creative-coding sketches exploring motion, systems and chance.",
-    note: "Rendered live in your browser · Canvas 2D",
-    cards: [
-      { code: "V01", title: "Drift",   kind: "flow",  duration: "00:42", text: "A flow-field particle study — a thousand agents following invisible currents." },
-      { code: "V02", title: "Signal",  kind: "wave",  duration: "00:38", text: "Interfering waveforms — simple math, endless variation." },
-      { code: "V03", title: "Lattice", kind: "grid",  duration: "00:51", text: "A generative grid that breathes — order dissolving into rhythm." },
-      { code: "V04", title: "Orbit",   kind: "orbit", duration: "00:47", text: "Bodies in quiet motion — gravity as a design tool." },
-      { code: "V05", title: "Static",  kind: "noise", duration: "00:33", text: "Animated grain — the texture of the machine, made visible." }
     ]
   },
 
@@ -264,8 +243,8 @@ window.CONTENT = {
     heading: "Selected <em>fragments.</em>",
     lede: "Sketches, studies and stills from the work above — kept for the record.",
     items: [
-      { code: "A01", title: "Pipeline sketches",  image: "assets/img/engine-idea.webp",         imageAlt: "Glowing workflow blueprint in violet light" },
-      { code: "A02", title: "System blueprints",  image: "assets/img/engine-architecture.webp", imageAlt: "Workflow system assembling in violet light" },
+      { code: "A01", title: "Pipeline anatomy",   image: "assets/img/project-crm.webp",         imageAlt: "Glowing workflow blueprint in violet light" },
+      { code: "A02", title: "Workflow close-up",  image: "assets/img/project-automation.webp", imageAlt: "Workflow system assembling in violet light" },
       { code: "A03", title: "Funnel architecture", image: "assets/img/project-funnels.webp",    imageAlt: "Descending funnel layers channeling light to a conversion point" },
       { code: "A04", title: "AI in production",   image: "assets/img/project-ai.webp",          imageAlt: "Luminous AI orb with radiating sound-wave rings" },
       { code: "A05", title: "Field notes",        image: "assets/img/engine-idea.webp",         imageAlt: "Glowing workflow blueprint in violet light" }
