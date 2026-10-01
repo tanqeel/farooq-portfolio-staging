@@ -6,8 +6,8 @@
    only the INFORMATION was replaced. The original site/repo is untouched.
 
    STILL PENDING (not shown on site until supplied):
-     · GitHub/LinkedIn/X URLs — no URLs in CV
-     · assets/img/about-portrait.webp — no photo supplied yet
+     · GitHub/LinkedIn/X URLs — no URLs in CV (links restored as "#" per Tanqeel 2026-10-02)
+     · assets/img/about-portrait.webp — real photo supplied 2026-10-02 ✓
 
    HONESTY RULES (kept):
      · No invented clients, employers, awards, degrees or metrics.
@@ -356,8 +356,11 @@ window.CONTENT = {
     }
   },
 
-  /* ---------------- Socials ---------------- */
+  /* ---------------- Socials — GitHub/LinkedIn/X still unknown ---------------- */
   socials: [
+    { label: "GitHub",    href: "#" },
+    { label: "LinkedIn",  href: "#" },
+    { label: "X",         href: "#" },
     { label: "Email",     href: "mailto:farooqfaiq18@gmail.com" }
   ],
 
