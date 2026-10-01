@@ -197,11 +197,10 @@ void main(){
       b.innerHTML =
         '<span class="film-media"><img src="' + p.image + '" alt="' + p.imageAlt + '" loading="lazy" decoding="async">' +
         '<span class="film-chip tl">P' + p.index + '</span>' +
-        '<span class="film-chip tr">' + p.duration + "</span>" +
         (p.concept ? '<span class="chip concept">Concept</span>' : "") +
         '<span class="film-scrim"><span><span class="film-meta">' + p.scope + '</span>' +
         '<span class="film-title">' + p.title + "</span></span>" +
-        '<span class="film-view">VIEW CASE <span class="play-chip" aria-hidden="true">▷</span></span></span></span>';
+        '<span class="film-view">VIEW CASE <span class="play-chip" aria-hidden="true">↗</span></span></span></span>';
       b.addEventListener("click", () => openModal(p));
       host.appendChild(b);
     });
