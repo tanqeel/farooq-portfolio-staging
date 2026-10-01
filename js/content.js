@@ -48,10 +48,10 @@ window.CONTENT = {
     secondaryCta: { label: "See selected work", href: "#work" },
     statusPrefix: "STRATEGY → SYSTEMS",
     chapters: [
-      { n: "01", label: "CRM",        img: "assets/img/hero-code.webp",         alt: "Macro of glowing code on a dark screen" },
-      { n: "02", label: "Automation", img: "assets/img/hero-systems.webp",      alt: "Dark data center corridor at night" },
-      { n: "03", label: "Funnels",    img: "assets/img/hero-intelligence.webp", alt: "Abstract neural network in dark space" },
-      { n: "04", label: "AI Agents",  img: "assets/img/hero-future.webp",       alt: "Futuristic horizon with light trails" }
+      { n: "01", label: "CRM",        img: "assets/img/hero-crm.webp",        alt: "Dark CRM command center glowing in violet" },
+      { n: "02", label: "Automation", img: "assets/img/hero-automation.webp", alt: "Faint automation streams flowing through dark nodes" },
+      { n: "03", label: "Funnels",    img: "assets/img/hero-funnels.webp",    alt: "Glowing funnel layers descending through darkness" },
+      { n: "04", label: "AI Agents",  img: "assets/img/hero-ai.webp",         alt: "Luminous AI orb glowing in dark space" }
     ]
   },
 
@@ -142,19 +142,19 @@ window.CONTENT = {
         n: "01", code: "MAP", title: "The blueprint",
         text: "Business requirements become system architecture — pipelines, lead flow, booking logic, follow-up sequences. What the business needs, mapped before anything is built.",
         image: "assets/img/engine-idea.webp",
-        imageAlt: "Hand-sketched CRM flow plans on dark paper"
+        imageAlt: "Glowing workflow blueprint in violet light"
       },
       {
         n: "02", code: "BUILD", title: "The system",
         text: "Workflows, funnels, calendars, forms and integrations — configured, connected and tested in working slices. You see the machine taking shape, not a black box.",
         image: "assets/img/engine-architecture.webp",
-        imageAlt: "Abstract CRM architecture blueprint"
+        imageAlt: "Workflow system assembling in violet light"
       },
       {
         n: "03", code: "OPTIMIZE", title: "The machine",
         text: "QA, troubleshooting and end-to-end validation — gaps closed, performance tuned, reliability proven. Then handoff: documented, explained, ready to run.",
         image: "assets/img/engine-product.webp",
-        imageAlt: "Finished automation system glowing on a dark stage"
+        imageAlt: "Radiant go-live dashboard in violet light"
       }
     ]
   },
@@ -205,8 +205,8 @@ window.CONTENT = {
         statement: "Every lead, <em>tracked.</em>",
         body: "Full GHL implementations — CRM architecture, pipelines, calendars, forms, funnels and client onboarding — delivered as organized, scalable workspaces.",
         chips: ["GoHighLevel", "Pipelines", "Calendars"],
-        image: "assets/img/engine-architecture.webp",
-        imageAlt: "Abstract CRM architecture blueprint"
+        image: "assets/img/project-crm.webp",
+        imageAlt: "Glowing CRM pipeline columns in violet light"
       },
       {
         n: "02", code: "FEATURED",
@@ -214,8 +214,8 @@ window.CONTENT = {
         statement: "Follow-up, <em>on autopilot.</em>",
         body: "Email & SMS campaigns, nurture sequences, appointment reminders, missed-call follow-up and reactivation — logic that keeps every journey moving.",
         chips: ["Workflows", "Email & SMS", "Make"],
-        image: "assets/img/hero-systems.webp",
-        imageAlt: "Dark data center corridor at night"
+        image: "assets/img/project-automation.webp",
+        imageAlt: "Luminous workflow nodes with email and message motifs"
       }
     ],
     linkRows: [
@@ -264,11 +264,11 @@ window.CONTENT = {
     heading: "Selected <em>fragments.</em>",
     lede: "Sketches, studies and stills from the work above — kept for the record.",
     items: [
-      { code: "A01", title: "Pipeline sketches",  image: "assets/img/engine-idea.webp",         imageAlt: "Hand-sketched CRM flow plans on dark paper" },
-      { code: "A02", title: "System blueprints",  image: "assets/img/engine-architecture.webp", imageAlt: "Abstract CRM architecture blueprint" },
-      { code: "A03", title: "Automation flows",   image: "assets/img/project-pulse.webp",       imageAlt: "Glowing conversion paths over a dark grid" },
-      { code: "A04", title: "Future signals",     image: "assets/img/hero-future.webp",         imageAlt: "Futuristic horizon with light trails" },
-      { code: "A05", title: "Field notes",        image: "assets/img/hero-intelligence.webp",   imageAlt: "Abstract neural network in dark space" }
+      { code: "A01", title: "Pipeline sketches",  image: "assets/img/engine-idea.webp",         imageAlt: "Glowing workflow blueprint in violet light" },
+      { code: "A02", title: "System blueprints",  image: "assets/img/engine-architecture.webp", imageAlt: "Workflow system assembling in violet light" },
+      { code: "A03", title: "Funnel architecture", image: "assets/img/project-funnels.webp",    imageAlt: "Descending funnel layers channeling light to a conversion point" },
+      { code: "A04", title: "AI in production",   image: "assets/img/project-ai.webp",          imageAlt: "Luminous AI orb with radiating sound-wave rings" },
+      { code: "A05", title: "Field notes",        image: "assets/img/engine-idea.webp",         imageAlt: "Glowing workflow blueprint in violet light" }
     ]
   },
 
