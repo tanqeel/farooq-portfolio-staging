@@ -5,8 +5,8 @@
    Structure, keys, layouts and behaviour are identical to the approved v3.0;
    only the INFORMATION was replaced. The original site/repo is untouched.
 
-   STILL PLACEHOLDER:
-     · socials GitHub/LinkedIn/X hrefs ("#") — no URLs in CV
+   STILL PENDING (not shown on site until supplied):
+     · GitHub/LinkedIn/X URLs — no URLs in CV
      · assets/img/about-portrait.webp — no photo supplied yet
 
    HONESTY RULES (kept):
@@ -271,8 +271,8 @@ window.CONTENT = {
     kicker: "Studio",
     heading: "The human <em>behind the machine.</em>",
     portrait: "assets/img/about-portrait.webp",
-    portraitAlt: "Silhouette placeholder portrait — replace with Farooq's photo",
-    portraitCaption: "Portrait placeholder",
+    portraitAlt: "Portrait of Muhammad Farooq",
+    portraitCaption: "Muhammad Farooq — GoHighLevel Expert",
     paragraphs: [
       "Muhammad Farooq is a GoHighLevel expert and CRM & automation specialist based in Multan, Pakistan. He builds CRM systems, automation workflows, funnels, pipelines and AI agents for agencies and service businesses — the machinery that turns leads into customers while nobody watches.",
       "He currently leads end-to-end GoHighLevel implementations as Technical Manager at GHL Techy, and has onboarded businesses into the platform as an Onboarding Specialist at The GHL University. Before that: automation systems as a self-employed specialist, and funnel design at Vezzur.",
@@ -332,7 +332,7 @@ window.CONTENT = {
       },
       {
         q: "Where are you based, and how do we communicate?",
-        a: "Multan, Pakistan — working remotely with clients worldwide. Communication is direct: you always know what's being built and what's next. The form below opens an email draft, or reach me at +92 311 6432859."
+        a: "Multan, Pakistan — working remotely. Communication is direct: you always know what's being built and what's next. The form below opens an email draft, or reach me at +92 311 6432859."
       }
     ]
   },
@@ -356,11 +356,8 @@ window.CONTENT = {
     }
   },
 
-  /* ---------------- Socials — GitHub/LinkedIn/X still unknown ---------------- */
+  /* ---------------- Socials ---------------- */
   socials: [
-    { label: "GitHub",    href: "#" },
-    { label: "LinkedIn",  href: "#" },
-    { label: "X",         href: "#" },
     { label: "Email",     href: "mailto:farooqfaiq18@gmail.com" }
   ],
 
