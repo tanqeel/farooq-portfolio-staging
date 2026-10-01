@@ -331,26 +331,6 @@ void main(){
     });
   }
 
-  function renderCollection() {
-    const set = (id, v) => { const el = byId(id); if (el) el.innerHTML = v; };
-    set("collection-kicker", C.experiments.kicker);
-    set("collection-heading", C.experiments.heading);
-    set("collection-lede", C.experiments.lede);
-    set("collection-note", C.experiments.note);
-    const rail = byId("collection-rail");
-    if (!rail) return;
-    C.experiments.cards.forEach(c => {
-      const card = document.createElement("article");
-      card.className = "rail-card";
-      card.innerHTML =
-        '<canvas data-sketch="' + c.kind + '" aria-label="Generative art: ' + c.title + '"></canvas>' +
-        '<span class="rail-chip">' + c.code + "</span>" +
-        '<span class="rail-dur">' + c.duration + "</span>" +
-        '<div class="rail-body"><h3>' + c.title + "</h3><p>" + c.text + "</p></div>";
-      rail.appendChild(card);
-    });
-  }
-
   function renderArchive() {
     const set = (id, v) => { const el = byId(id); if (el) el.innerHTML = v; };
     set("archive-kicker", C.archive.kicker);
@@ -1032,38 +1012,6 @@ void main(){
     });
   }
 
-  /* ════════════ COLLECTION RAIL — one card per click ════════════ */
-  function initRail() {
-    const rail = byId("collection-rail");
-    if (!rail) return;
-    const step = () => {
-      const card = rail.querySelector(".rail-card");
-      return card ? card.offsetWidth + 22 : 320;
-    };
-    const prev = byId("rail-prev"), next = byId("rail-next");
-    if (prev) prev.addEventListener("click", () => rail.scrollBy({ left: -step(), behavior: reducedMotion ? "auto" : "smooth" }));
-    if (next) next.addEventListener("click", () => rail.scrollBy({ left: step(), behavior: reducedMotion ? "auto" : "smooth" }));
-    const total = C.experiments.cards.length;
-    const pad = n => String(n).padStart(2, "0");
-    function updateCounter() {
-      const s = step();
-      const vis = Math.max(1, Math.floor(rail.clientWidth / s));
-      const first = clamp(Math.round(rail.scrollLeft / s), 0, Math.max(0, total - vis));
-      const counter = byId("rail-counter");
-      if (counter) counter.textContent = pad(first + 1) + "–" + pad(Math.min(first + vis, total)) + " / " + pad(total);
-      if (prev) prev.disabled = rail.scrollLeft <= 4;
-      if (next) next.disabled = rail.scrollLeft >= rail.scrollWidth - rail.clientWidth - 4;
-    }
-    let tick = false;
-    rail.addEventListener("scroll", () => {
-      if (tick) return; tick = true;
-      requestAnimationFrame(() => { tick = false; updateCounter(); });
-    }, { passive: true });
-    window.addEventListener("load", updateCounter);
-    window.addEventListener("resize", updateCounter);
-    updateCounter();
-  }
-
   /* ════════════ FILM MODAL ════════════ */
   let modalLastFocus = null;
   function openModal(p) {
@@ -1177,7 +1125,7 @@ void main(){
   function init() {
     renderIntroText(); renderHero(); renderMarquee(); renderFilms(); renderPrinciples();
     renderEngine(); renderWorlds(); renderCapabilities(); renderDigital();
-    renderCollection(); renderArchive(); renderProcess(); renderStudio();
+    renderArchive(); renderProcess(); renderStudio();
     renderStackBand(); renderFaq(); renderContact(); renderFooter();
     heroImgs = $$("#hero-frames img");
     chapterBtns = $$("#hero-chapters button");
@@ -1189,7 +1137,7 @@ void main(){
     heroContent = byId("hero-content");
     heroChapterWord = byId("hero-chapter-word");
     setEngineStage(0, true);
-    initHeader(); initReveals(); initSpy(); initTerminal(); initRail(); initModal(); initForm();
+    initHeader(); initReveals(); initSpy(); initTerminal(); initModal(); initForm();
     const skip = byId("engine-skip");
     if (skip) skip.addEventListener("click", () => {
       const wrap = $(".engine-pin-wrap");
