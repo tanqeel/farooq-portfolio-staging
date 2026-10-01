@@ -29,8 +29,8 @@ window.CONTENT = {
 
   /* ---------------- Intro ---------------- */
   intro: {
-    line1: "Raw ideas,",
-    line2: "engineered to life.",   // rendered in lavender→rose gradient
+    line1: "Capture the lead. Automate the journey.",
+    line2: "Scale the business.",   // rendered in lavender→rose gradient
     hudCornerTL: "FAROOQ — PORTFOLIO",
     hudCornerTR: "SHOWREEL ’26",
     hudCornerBL: "SCROLL TO EXPLORE",
