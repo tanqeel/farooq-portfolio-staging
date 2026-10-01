@@ -32,7 +32,7 @@ window.CONTENT = {
     line1: "Capture the lead. Automate the journey.",
     line2: "Scale the business.",   // rendered in lavender→rose gradient
     hudCornerTL: "FAROOQ — PORTFOLIO",
-    hudCornerTR: "SHOWREEL ’26",
+    hudCornerTR: "SELECTED WORK",
     hudCornerBL: "SCROLL TO EXPLORE",
     hudCornerBR: "V3.1",
     skipLabel: "SKIP INTRODUCTION"
@@ -68,7 +68,7 @@ window.CONTENT = {
      No client names invented; cards describe the work, not engagements. */
   projects: [
     {
-      id: "crm", index: "01", concept: false, duration: "02:07",
+      id: "crm", index: "01", concept: false,
       title: "CRM BUILDS",
       headline: "Every lead, tracked.",
       scope: "GoHighLevel · CRM Architecture · Pipelines",
@@ -78,7 +78,7 @@ window.CONTENT = {
       imageAlt: "Glowing CRM pipeline columns in violet light"
     },
     {
-      id: "automation", index: "02", concept: false, duration: "01:48",
+      id: "automation", index: "02", concept: false,
       title: "AUTOMATION",
       headline: "Follow-up, on autopilot.",
       scope: "Workflow Automation · Email & SMS · Nurture",
@@ -88,7 +88,7 @@ window.CONTENT = {
       imageAlt: "Luminous workflow nodes with email and message motifs"
     },
     {
-      id: "funnels", index: "03", concept: false, duration: "01:56",
+      id: "funnels", index: "03", concept: false,
       title: "FUNNELS",
       headline: "Pages that convert.",
       scope: "Funnels · Landing Pages · Lead Capture",
@@ -98,7 +98,7 @@ window.CONTENT = {
       imageAlt: "Descending funnel layers channeling light to a conversion point"
     },
     {
-      id: "ai", index: "04", concept: false, duration: "02:21",
+      id: "ai", index: "04", concept: false,
       title: "AI AGENTS",
       headline: "Conversations that close.",
       scope: "AI Chatbots · Voice AI · Integrations",
@@ -240,8 +240,8 @@ window.CONTENT = {
   /* ---------------- Archive (curated highlights) ---------------- */
   archive: {
     kicker: "Archive",
-    heading: "Selected <em>fragments.</em>",
-    lede: "Sketches, studies and stills from the work above — kept for the record.",
+    heading: "Selected <em>details.</em>",
+    lede: "Notes, diagrams and close-ups from the work above — kept for reference.",
     items: [
       { code: "A01", title: "Pipeline anatomy",   image: "assets/img/project-crm.webp",         imageAlt: "Glowing workflow blueprint in violet light" },
       { code: "A02", title: "Workflow close-up",  image: "assets/img/project-automation.webp", imageAlt: "Workflow system assembling in violet light" },
