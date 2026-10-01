@@ -1,5 +1,5 @@
 /* ============================================================================
-   FAROOQ — PORTFOLIO CONTENT · v3.1 (staging)
+   FAROOQ — PORTFOLIO CONTENT · v3.1
    ----------------------------------------------------------------------------
    REAL CONTENT — sourced from Muhammad Farooq's CV (received 2026-10-01).
    Structure, keys, layouts and behaviour are identical to the approved v3.0;
